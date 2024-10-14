@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import { Button } from "./ui/button";
 
 interface ButtonProps {
@@ -7,7 +6,6 @@ interface ButtonProps {
   className?: string;
   children: React.ReactNode;
 }
-
 const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
   return (
     <Button
